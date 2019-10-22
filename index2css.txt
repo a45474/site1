@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.lbtn {
+    background-color: red;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.lbtn::after {
+    content:"";
+    background: (./img/banner1.jpg;
+    display: block;
+    margin-left:100px;
+    width:1000px;
+    height: 400px;
+}
+
+.lbtn:hover::after {
+    background-color: black;
+}
+
+.rbtn {
+    background-color: blue;
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
